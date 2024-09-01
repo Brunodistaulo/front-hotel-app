@@ -39,7 +39,7 @@ const Summary: React.FC<SummaryProps> = ({
   const totalPrice = (basePrice + totalAdditionalPrice) * days;
 
   useEffect(() => {
-    initMercadoPago("TEST-c51dee68-4858-486f-b364-2caa5853ead4", {
+    initMercadoPago("APP_USR-35538bb9-61e1-4eac-b576-39d00aabb950", {
       locale: "es-AR",
     });
   }, []);
