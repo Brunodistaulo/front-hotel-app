@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import { Toaster } from "react-hot-toast";
 import { AuthProvider } from "@/app/context/auth-context";
 import { CartProvider } from "./context/cart-context";
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -26,6 +27,9 @@ interface RootLayoutProps {
 export default async function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="es">
+      <head>
+        <meta name="google-site-verification" content="82motILPs9oEg_152XNeADsZtdeZJGoN7iolp1bK-Fk" />
+      </head>
       <body
         className={cn(
           "flex flex-col w-full min-h-screen bg-background font-sans antialiased",
